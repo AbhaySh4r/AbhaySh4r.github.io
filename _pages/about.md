@@ -23,7 +23,4 @@ My name is Abhay Sharma. Currently a student at the MSDS Program at SMU. I've pr
 
 I enjoy making music, having choice paralysis on what game to play, and playing tennis. 
 
-My email: abhays@mail.smu.edu
-
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Reach me at my email: abhays@mail.smu.edu
