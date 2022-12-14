@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - AbhaySh4r
 
 github_repos:
   - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - AbhaySh4r/DDSCaseStudy2
+  - AbhaySh4r/Stat1Project
+  - DotSumWedge/BreweryAnalysis
