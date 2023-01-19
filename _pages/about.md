@@ -3,8 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: 
-  abhays@mail.smu.edu 
-  (415) 890-4187‬
+  Email: abhays@mail.smu.edu <br />
+  Cell: (415) 890-4187‬
 
 profile:
   align: right
