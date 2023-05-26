@@ -1,17 +1,28 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Stellar Sonification
+description: Used data processing methods in Processing in conjunction with SuperCollider audio engine to synthesize the sound profile for a stellar object
+img: assets/img/g433_w11.jpg
 importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project was inspired by the recent sonification of the Perseus Galaxy Cluster, which led to many conversations behind the production of the project. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The focus was on building the foundation for sonification of stellar objects, where selection of tone is relatively arbitrary in this execution, does allow for a more robust method to be dropped into the already functioning project.
+
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/UmX4kyB2wfg"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
+
+<!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
@@ -77,4 +88,4 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ```
-{% endraw %}
+{% endraw %} -->
