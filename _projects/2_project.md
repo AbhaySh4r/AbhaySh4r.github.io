@@ -23,4 +23,4 @@ The focus was on building the foundation for sonification of stellar objects, wh
 </iframe>
 </center>
 
-All the image processing/pixel analysis was done within Processing, using 
+The image processing/pixel analysis was done within Processing, using Processing's Pixel class to analyze the spectral content of each pixel column, then translating that into an audible tone using SuperCollider's audio engine. This was done for each wavelength, provided within the original picture format, but can be extended to any arbitrary wavelength represented in the photo. 
