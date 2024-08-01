@@ -1,7 +1,7 @@
-title: Yusuke Contextofolio
-description: Portfolio for Yusuke
+title: Abhay Sharma
+description: Portfolio for Abhay
 header:
-  logoAlt: Portfolio for Yusuke
+  logoAlt: Portfolio for Abhay
   links:
     - text: Home
       href: "./index.html"
@@ -9,17 +9,16 @@ header:
       href: "./publications.html"
     - text: CV
       href: "https://drive.google.com/file/d/11vvfBDRHPdswER4hXFbxkCMhqUoMKDzq/view?usp=sharing"
-    - text: 日本語
-      href: "./index.html"
 
 about:
-  mainHeading: Yusuke Miyashita
-  subHeading: I explore AI through research in language, robotics, and simulation!!
+  mainHeading: Abhay Sharma
+  subHeading: Data Science Graduate interested in the intersection of Physics and ML
   content: >
-    I graduated from Monash University with a Bachelor's degree in Engineering and Economics and I have been exploring the applications of AI in different fields such as language, robots and simulation. In my previous roles at the Commonwealth Scientific and Industrial Research Organisation (CSIRO), Monash University, and the Japanese startup company DeepFlow, I published research papers and developed open-source applications. 
+    I recently graduated from SMU's Master's in Data Science program. Prior to SMU, I graduated from UCI with a Bachelor's degree in Physics. During my time at SMU, I've gained hands on experience with various ML modelling techniques bolstered with my mathematical foundations to build a comprehensive understanding of the field. For my Master's capstone project, I collaborated and published a paper with Microsoft on a project that delved deep into the application of Deep Learning and utility of LLMs in a real world problem. I'm currently looking for opportunitise to apply my skills and passion to the field of Physics and ML.
+
   image:
-    src: "./assets/jpeg/yusuke.jpg"
-    alt: "Yusuke Miyashita"
+    src: "./assets/png/face.png"
+    alt: "Abhay Sharma"
 
 projectsSection:
   mainHeading: Projects
