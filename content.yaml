@@ -1,0 +1,123 @@
+title: Yusuke Contextofolio
+description: Portfolio for Yusuke
+header:
+  logoAlt: Portfolio for Yusuke
+  links:
+    - text: Home
+      href: "./index.html"
+    - text: Publications
+      href: "./publications.html"
+    - text: CV
+      href: "https://drive.google.com/file/d/11vvfBDRHPdswER4hXFbxkCMhqUoMKDzq/view?usp=sharing"
+    - text: 日本語
+      href: "./index.html"
+
+about:
+  mainHeading: Yusuke Miyashita
+  subHeading: I explore AI through research in language, robotics, and simulation!!
+  content: >
+    I graduated from Monash University with a Bachelor's degree in Engineering and Economics and I have been exploring the applications of AI in different fields such as language, robots and simulation. In my previous roles at the Commonwealth Scientific and Industrial Research Organisation (CSIRO), Monash University, and the Japanese startup company DeepFlow, I published research papers and developed open-source applications. 
+  image:
+    src: "./assets/jpeg/yusuke.jpg"
+    alt: "Yusuke Miyashita"
+
+projectsSection:
+  mainHeading: Projects
+  subHeading: Explore my work and contributions
+projects:
+  - sectionID: project_6
+    sectionClass: project-bg-2
+    imgSrc: ./assets/png/nanoPerplexityAI.png
+    imgAlt: Video Screenshot
+    title: "nanoPerplexityAI: The simplest open-source implementation of perplexity.ai"
+    description: >
+      The simplest and most intuitive open-source implementation of an open source perplexity.ai, a large language model(LLM) service which cites information from Google. No fancy GUI or LLM agents are involved, just 100 lines of python code.
+    link: 
+      text: Youtube Video
+      href: https://youtu.be/8zBDTnSYSoc
+  - sectionID: project_5
+    sectionClass: project-bg-1
+    imgSrc: ./assets/png/Can_LLM_Agents.png
+    imgAlt: Software Screenshot
+    title: Can Private LLM Agents Synthesize Household Energy Consumption Data?
+    description: >
+      During the internship at CSIRO in 2023 summer, our team investigated the capability of LLM in simulating household electricity data.
+    link: 
+      text: Read Paper
+      href: https://dl.acm.org/doi/10.1145/3632775.3661993
+  - sectionID: project_4
+    sectionClass: project-bg-2
+    imgSrc: ./assets/jpeg/merit_prize.jpeg
+    imgAlt: Software Screenshot
+    title: Merit Prize for Cluster Competition at SuperComputing Asia 2024
+    description: >
+      As part of Monash DeepNueron, we participated in the cluster competition which involved distributed inference of earth-system simulation components (HPC) for weather studies 🌦️, and the multilingual language model(bloom) similar to ChatGPT.
+    link: 
+      text: Blog Post
+      href: https://medium.com/@media.deepneuron/2023-apac-hpc-ai-competition-fc8689acdfe3
+  - sectionID: project_3
+    sectionClass: project-bg-1
+    imgSrc: ./assets/png/pipeline.png
+    imgAlt: Software Screenshot
+    title: "ROSO: Improving Robotic Policy Inference via Synthetic Observations"
+    description: >
+      Featuring my final year project at Monash University, our research proposes the use of Generative AI to enhance zero-shot performance in robotic systems.
+    link: 
+      text: Project Page
+      href: https://yusuke710.github.io/roso.github.io/
+  - sectionID: project_2
+    sectionClass: project-bg-2
+    imgSrc: ./assets/png/ellipsoid_angled_view.png
+    imgAlt: Software Screenshot
+    title: Paraview 3D particle Visualiser
+    description: >
+      At Japanese startup company, DeepFlow, I developed Open-Source Software that enables the creation of high-quality, detailed 3D visualizations/animations for data from material science and physics simulation.
+    link: 
+      text: Youtube Video
+      href: https://www.youtube.com/watch?v=JgkmHP0jZgk
+  - sectionID: project_1
+    sectionClass: project-bg-1
+    imgSrc: ./assets/png/economics_video.png
+    imgAlt: Software Screenshot
+    title: Economics Video with 3B1B Style
+    description: >
+      This video explains the introductory Consumer Theory in Mathematical Economics, specifically the "Existence of a Utility Function representing Preference Relation."
+    link: 
+      text: Youtube Video
+      href: https://www.youtube.com/watch?v=tCaYM52Cq2c
+
+quiz:
+  mainHeading: Wanna play a game?
+  howToPlay: Guess the chosen word within this portofolio to reveal a secret!!
+  submit_btn: Submit Guess
+  play_contextofolio: True
+
+footer:
+  description: "youfu1202mo@gmail.com" 
+  portofolio_link: "Check out the  Github project to build your own Portofolio!"
+  socialLinks:
+    - href: "https://www.linkedin.com/in/yusuke-miyashita-79a3771a5/"
+      iconSrc: "./assets/png/linkedin-ico.png"
+    - href: "https://github.com/Yusuke710"
+      iconSrc: "./assets/png/github-ico.png"
+    - href: "https://twitter.com/miyashita_03"
+      iconSrc: "./assets/png/twitter-ico.png"
+    - href: "https://www.youtube.com/@yusukemiyashita4879"
+      iconSrc: "./assets/png/yt-ico.png"
+
+publications:
+  heading: Publications
+  subheading:
+  conferences:
+    - title: "Miyashita, Y., Gahtidis, D., La, C., Rabinowicz, J., & Leitner, J. (2023). ROSO: Improving Robotic Policy Inference via Synthetic Observations. In A. Tompkins, & S. Abpeikar (Eds.), Australasian Conference on Robotics and Automation, ACRA 2023 (Australasian Conference on Robotics and Automation, ACRA). Australian Robotics and Automation Association (ARAA)."
+      link: "https://ssl.linklings.net/conferences/acra/acra2023_proceedings/views/includes/files/pap145s2.pdf" 
+      award: "Best Student Paper Nomination"
+
+  workshops:
+    - title: "Mahathir Almashor, Yusuke Miyashita, Sam West, and Thi Van Dai Dong. 2024. Can Private LLM Agents Synthesize Household Energy Consumption Data? In Proceedings of the 15th ACM International Conference on Future and Sustainable Energy Systems (e-Energy '24). Association for Computing Machinery, New York, NY, USA, 664–668."
+      link: "https://doi.org/10.1145/3632775.3661993"
+
+  invitedtalks:
+    - title: 'Yusuke Miyashita and Allister Lim, "Student Competitions: From Students to Future HPC Researchers" HPC-AI competition 2, SCA2024, Feb. 2024'
+      link: "https://sca24.sc-asia.org/speakers/"
+      award: "Merit Prize"

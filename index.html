@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Yusuke Contextofolio</title>
+  <meta name="description" content="Portfolio for Yusuke" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+
+  <!-- Include js-yaml library -->
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.0.0/dist/js-yaml.min.js"></script>
+  <!-- Include content loader -->
+  <script src="js/contentLoader.js" defer></script>
+  <!-- Include header menu logic -->
+  <script src="js/headerMenu.js" defer></script>
+  <!-- Include game logic -->
+  <script src="js/gameLogic.js" defer></script>
+  <script src="js/seedrandom.js"></script>
+  <!-- Include spell checker logic -->
+  <script src="js/spellChecker.js" defer></script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N4R4XMGYC2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N4R4XMGYC2');
+</script>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__main">
+        <ul class="header__links">
+          <!-- Links will be injected here -->
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img
+            src="./assets/svg/ham-menu.svg"
+            alt="hamburger menu"
+            class="header__main-ham-menu"
+          />
+          <img
+            src="./assets/svg/ham-menu-close.svg"
+            alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <!-- Links will be injected here -->
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="about sec-pad">
+    <div class="container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main"></span>
+        <span class="heading-sec__sub"></span>
+      </h2>
+      <div class="row">
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="about__content-main">
+            <img src="" alt="" class="about__content-image">
+            <h3 class="about__content-title"></h3>
+            <div class="home-hero__socials">
+              <!-- Social links will be injected here -->
+            </div>
+            <div class="about__content-details">
+              <p class="about__content-details-para"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project sections will be injected here -->
+
+  <section id="quiz" class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">
+        <span id="quiz-main-heading"></span>
+      </h1>
+      
+      <!-- How to play section -->
+      <div id="howToPlaySection" class="home-hero__info">
+        <p class="text-primary">
+          <strong id="howToPlayText"></strong> <br>
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <input type="text" id="guessInput" placeholder="Enter your guess">
+        <button onclick="submitGuess()" id="quizbtn" class="btn btn--bg"></button>
+        <span id="hintIcon" class="hint-icon" onclick="hint()">
+          <img src="assets/png/hint.png" alt="Hint Icon" width="40" height="40">
+        </span>
+        <p id="result"></p>
+        <ul id="attemptHistory"></ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper row">
+        <div class="col-md-6 main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont mt-3">
+            <!-- Social links will be injected here -->
+          </div>
+        </div>
+        <div class="col-md-6 main-footer__row-2">
+          <p class="main-footer__short-desc mt-3" id="footer-description"></p>
+        </div>
+      </div>
+      <div class="main-footer__lower mt-5 text-center">
+        <a rel="noreferrer" target="_blank" href="https://github.com/Yusuke710/Contextofolio.github.io" id="footer-portofolio-link" class="text-white"></a> 
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
