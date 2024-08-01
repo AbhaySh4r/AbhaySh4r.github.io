@@ -22,18 +22,23 @@ about:
 
 projectsSection:
   mainHeading: Projects
-  subHeading: Explore my work and contributions
+  subHeading: My Work and Projects
 projects:
   - sectionID: project_6
     sectionClass: project-bg-2
-    imgSrc: ./assets/png/nanoPerplexityAI.png
+    imgSrc: ./assets/png/capstone_header1.png
     imgAlt: Video Screenshot
-    title: "nanoPerplexityAI: The simplest open-source implementation of perplexity.ai"
+    title: "Log Anomaly Analysis using BERT and GenAI"
     description: >
-      The simplest and most intuitive open-source implementation of an open source perplexity.ai, a large language model(LLM) service which cites information from Google. No fancy GUI or LLM agents are involved, just 100 lines of python code.
-    link: 
-      text: Youtube Video
+      Utilizing cutting edge models leveraging the BERT Transformer framework as well as generating our own embeddings, my team and I built a PoC pipeline that allowed for the training and then isolation of anomalous log files within a dataset. Through the utility of our generated embeddings from potentially anomalous logs and a RAG model fine tuned on relevant documentation, we are able to provide a unique method for support engineers to gain insights into their log datasets and more quickly isolate what potential problems might be.
+
+      The presentation of this project at our Capstone symposium was awarded the "Best Presentation" award.
+    links: 
+    - text: Youtube Video
       href: https://youtu.be/8zBDTnSYSoc
+    - text: Paper
+      href: Link to Paper
+
   - sectionID: project_5
     sectionClass: project-bg-1
     imgSrc: ./assets/png/Can_LLM_Agents.png
