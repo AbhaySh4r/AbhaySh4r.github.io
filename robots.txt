@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://AbhaySh4r.github.io/sitemap.xml

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Yusuke Contextofolio - Publications</title>
+  <meta name="description" content="Publications for Yusuke" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+
+  <!-- Include js-yaml library -->
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.0.0/dist/js-yaml.min.js"></script>
+  <script src="js/publicationLoader.js" defer></script>
+  <script src="js/headerMenu.js" defer></script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N4R4XMGYC2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N4R4XMGYC2');
+</script>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__main">
+        <ul class="header__links">
+          <!-- Links will be injected here -->
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img
+            src="./assets/svg/ham-menu.svg"
+            alt="hamburger menu"
+            class="header__main-ham-menu"
+          />
+          <img
+            src="./assets/svg/ham-menu-close.svg"
+            alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <!-- Links will be injected here -->
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  <section id="publications" class="publications sec-pad">
+    <div class="container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main"></span>
+        <span class="heading-sec__sub"></span>
+      </h2>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="publications__section">
+            <p class="italic-text">Conference</p>
+            <ul class="publications__list" id="conference-list">
+              <!-- Conference publications will be injected here -->
+            </ul>
+          </div>
+          <div class="publications__section">
+            <p class="italic-text">Workshop</p>
+            <ul class="publications__list" id="workshop-list">
+              <!-- Workshop publications will be injected here -->
+            </ul>
+          </div>
+          <div class="publications__section">
+            <p class="italic-text">Invited Talk</p>
+            <ul class="publications__list" id="invited-talk-list">
+              <!-- Invited talks will be injected here -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper row">
+        <div class="col-md-6 main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont mt-3">
+            <!-- Social links will be injected here -->
+          </div>
+        </div>
+        <div class="col-md-6 main-footer__row-2">
+          <p class="main-footer__short-desc mt-3" id="footer-description"></p>
+        </div>
+      </div>
+      <div class="main-footer__lower mt-5 text-center">
+        <a rel="noreferrer" target="_blank" href="https://github.com/Yusuke710/Contextofolio.github.io" id="footer-portofolio-link" class="text-white"></a> 
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
