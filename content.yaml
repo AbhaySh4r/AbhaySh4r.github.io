@@ -12,7 +12,7 @@ header:
 
 about:
   mainHeading: Abhay Sharma
-  subHeading: Data Science Graduate interested in the intersection of Physics and ML
+  subHeading: Data Science Graduate passionate about the intersection of Physics and ML
   content: >
     I recently graduated from SMU's Master's in Data Science program. Prior to SMU, I graduated from UCI with a Bachelor's degree in Physics. During my time at SMU, I've gained hands on experience with various ML modelling techniques bolstered with my mathematical foundations to build a comprehensive understanding of the field. For my Master's capstone project, I collaborated and published a paper with Microsoft on a project that delved deep into the application of Deep Learning and utility of LLMs in a real world problem. I'm currently looking for opportunitise to apply my skills and passion to the field of Physics and ML.
 
@@ -33,10 +33,8 @@ projects:
       Utilizing cutting edge models leveraging the BERT Transformer framework as well as generating our own embeddings, my team and I built a PoC pipeline that allowed for the training and then isolation of anomalous log files within a dataset. Through the utility of our generated embeddings from potentially anomalous logs and a RAG model fine tuned on relevant documentation, we are able to provide a unique method for support engineers to gain insights into their log datasets and more quickly isolate what potential problems might be.
 
       The presentation of this project at our Capstone symposium was awarded the "Best Presentation" award.
-    links: 
-    - text: Youtube Video
-      href: https://youtu.be/8zBDTnSYSoc
-    - text: Paper
+    link: 
+      text: Paper
       href: Link to Paper
 
   - sectionID: project_5
