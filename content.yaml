@@ -17,8 +17,8 @@ about:
     I recently graduated from SMU's Master's in Data Science program. Prior to SMU, I graduated from UCI with a Bachelor's degree in Physics. During my time at SMU, I've gained hands on experience with various ML modelling techniques bolstered with my mathematical foundations to build a comprehensive understanding of the field. For my Master's capstone project, I collaborated and published a paper with Microsoft on a project that delved deep into the application of Deep Learning and utility of LLMs in a real world problem. I'm currently looking for opportunitise to apply my skills and passion to the field of Physics and ML.
 
   image:
-    src: "./assets/jpeg/yusuke.jpg"
-    alt: "Yusuke Miyashita"
+    src: "./assets/png/abhay.png"
+    alt: "Abhay Sharma"
 
 projectsSection:
   mainHeading: Projects
