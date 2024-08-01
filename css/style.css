@@ -9,7 +9,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #ffffff;
+  background-color: #f7e5d1;
 }
 
 /* Container */
@@ -24,8 +24,8 @@ body {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #ee8a8a;
-  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+  background: #291433;
+  box-shadow: 0 10px 100px rgb(248, 222, 197);
 }
 
 .header__content {
@@ -60,7 +60,7 @@ body {
   padding: 1rem 2rem;
   display: inline-block;
   font-size: 1.2rem;
-  color: #333;
+  color: #ffdfba;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -68,7 +68,7 @@ body {
   transition: color .3s;
 }
 .header__link:hover {
-  color: #0062b9;
+  color: #89c6fc;
 }
 @media only screen and (max-width: 56.25em) {
   .header__link {
