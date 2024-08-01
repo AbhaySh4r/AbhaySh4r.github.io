@@ -94,20 +94,16 @@ quiz:
   mainHeading: Wanna play a game?
   howToPlay: Guess the chosen word within this portofolio to reveal a secret!!
   submit_btn: Submit Guess
-  play_contextofolio: True
+  play_contextofolio: False
 
 footer:
   description: "youfu1202mo@gmail.com" 
   portofolio_link: "Check out the  Github project to build your own Portofolio!"
   socialLinks:
-    - href: "https://www.linkedin.com/in/yusuke-miyashita-79a3771a5/"
+    - href: "www.linkedin.com/in/abhays9217"
       iconSrc: "./assets/png/linkedin-ico.png"
-    - href: "https://github.com/Yusuke710"
+    - href: "https://github.com/AbhaySh4r"
       iconSrc: "./assets/png/github-ico.png"
-    - href: "https://twitter.com/miyashita_03"
-      iconSrc: "./assets/png/twitter-ico.png"
-    - href: "https://www.youtube.com/@yusukemiyashita4879"
-      iconSrc: "./assets/png/yt-ico.png"
 
 publications:
   heading: Publications
